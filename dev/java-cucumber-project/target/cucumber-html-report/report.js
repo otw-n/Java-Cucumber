@@ -35,7 +35,7 @@ formatter.match({
   "location": "SampleStepdefs.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 166822262,
+  "duration": 13065322561,
   "status": "passed"
 });
 });
