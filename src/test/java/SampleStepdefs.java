@@ -2,11 +2,13 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 /**
  * Created by dto21215 on 25-11-2016.
  */
 public class SampleStepdefs {
+    @Test
     @Given("^User is on Home Page$")
     public void userIsOnHomePage() throws Throwable {
         ChromeDriver driver = new ChromeDriver();

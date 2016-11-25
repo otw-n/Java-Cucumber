@@ -1,21 +1,33 @@
+import cucumber.api.PendingException;
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.Given;
 import org.junit.Assert;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.testng.annotations.Test;
 
 /**
  * Created by dto21215 on 25-11-2016.
  */
 public class Sample2Stepdefs {
     @Given("^User is on Home Page2$")
+    @Test
     public void userIsOnHomePage() throws Throwable {
-        ChromeDriver driver = new ChromeDriver();
-        driver.navigate().to("http://otwn.nl/");
-        Thread.sleep(5000);
-        Assert.assertEquals("otwn | Just another WordPress site", driver.getTitle());
-        Thread.sleep(2000);
+        GridClass grid = new GridClass();
 
-        System.out.println("Java Cucumber run successful");
-        driver.quit();
-        //throw new PendingException();
+        grid.launchbrowser("phantomjs");
+        Thread.sleep(8000);
+        grid.driver.navigate().to("http://otwn.nl/");
+        grid.driver.manage().window().maximize();
+
+        Assert.assertEquals("otwn | Just another WordPress site", grid.driver.getTitle());
+        Thread.sleep(8000);
+
+        // quit driver
+        grid.driver.quit();
     }
 }

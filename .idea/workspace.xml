@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88cd1981-cff8-4711-9339-6ecbe6e22a9b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/sample2.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/GridClass.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/.idea/.name" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/.idea/compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" afterPath="" />
@@ -82,18 +81,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/target/cucumber-html-report/report.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/target/cucumber-html-report/style.css" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../java-cucumber-project/target/test-classes/SampleStepdefs.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/RunCucumberTests.class" afterPath="$PROJECT_DIR$/target/classes/RunCucumberTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/SampleStepdefs.class" afterPath="$PROJECT_DIR$/target/test-classes/SampleStepdefs.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/RunCucumberTests.java" afterPath="$PROJECT_DIR$/src/main/java/RunCucumberTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SampleStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/SampleStepdefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/sample.feature" afterPath="$PROJECT_DIR$/src/test/sample.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/formatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/index.html" afterPath="$PROJECT_DIR$/target/cucumber-html-report/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/jquery-1.8.2.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/style.css" afterPath="$PROJECT_DIR$/target/cucumber-html-report/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -116,8 +106,18 @@
       <file leaf-file-name="RunCucumberTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RunCucumberTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="264">
+              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/target/cucumber-html-report/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -146,8 +146,8 @@
       <file leaf-file-name="SampleStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SampleStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -155,12 +155,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sample2Stepdefs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Sample2Stepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="198">
+              <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GridClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/GridClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,6 +189,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>cucu</find>
+      <find>node</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -194,9 +207,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/RunCucumberTests.java" />
         <option value="$PROJECT_DIR$/src/test/sample.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/SampleStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/sample2.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/SampleStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/GridClass.java" />
       </list>
     </option>
   </component>
@@ -257,6 +271,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cucumber-html-report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -685,34 +731,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RunCucumberTests - 2016.11.25 at 20h 36m 35s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 40m 39s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 26m 46s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 47m 06s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 27m 28s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 50m 30s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 28m 11s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 51m 49s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 30m 17s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 53m 15s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 31m 37s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.25 at 23h 56m 05s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 38m 54s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.26 at 00h 00m 44s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 40m 32s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.26 at 00h 02m 44s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 43m 11s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.26 at 00h 04m 29s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RunCucumberTests - 2016.11.25 at 21h 45m 09s.xml">
+    <history-entry file="RunCucumberTests - 2016.11.26 at 00h 07m 51s.xml">
       <configuration name="RunCucumberTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -869,11 +915,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RunCucumberTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/sample2.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="22">
+          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/GridClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="50" lean-forward="false" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SampleStepdefs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -885,28 +959,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/SampleStepdefs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RunCucumberTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="22" lean-forward="false" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/sample2.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" lean-forward="false" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Sample2Stepdefs.java">
+    <entry file="file://$PROJECT_DIR$/target/cucumber-html-report/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
