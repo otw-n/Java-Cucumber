@@ -1,4 +1,3 @@
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import org.junit.Assert;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -6,8 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /**
  * Created by dto21215 on 25-11-2016.
  */
-public class SampleStepdefs {
-    @Given("^User is on Home Page$")
+public class Sample2Stepdefs {
+    @Given("^User is on Home Page2$")
     public void userIsOnHomePage() throws Throwable {
         ChromeDriver driver = new ChromeDriver();
         driver.navigate().to("http://otwn.nl/");
