@@ -16,7 +16,7 @@ public class GoToPageStepdefs {
         Thread.sleep(3000);
         grid.driver.navigate().to("http://otwn.nl/");
         grid.driver.manage().window().maximize();
-        Assert.assertEquals("otwn | Just another WordPress site", grid.driver.getTitle());
+        Assert.assertEquals("otwn – Just another WordPress site", grid.driver.getTitle());
         grid.driver.findElement(By.xpath("//a[@href='http://otwn.nl/index.php/2016/11/19/hello-world/']")).click();
         Thread.sleep(3000);
 

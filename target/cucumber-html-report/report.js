@@ -50,28 +50,28 @@ formatter.match({
   "location": "GoToPageStepdefs.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 10546129845,
+  "duration": 11461249600,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateLoginStepdefs.userNavigateToLogInPage()"
 });
 formatter.result({
-  "duration": 66918,
+  "duration": 73076,
   "status": "passed"
 });
 formatter.match({
   "location": "UserPassStepdefs.userEntersUserNameAndPassword()"
 });
 formatter.result({
-  "duration": 55834,
+  "duration": 48854,
   "status": "passed"
 });
 formatter.match({
   "location": "MessageDisplayStepdefs.messageDisplayedLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 51728,
+  "duration": 45570,
   "status": "passed"
 });
 formatter.uri("sample2.feature");
@@ -126,28 +126,28 @@ formatter.match({
   "location": "ChromeTestStepdefs.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 12335755516,
+  "duration": 12269275234,
   "status": "passed"
 });
 formatter.match({
   "location": "NavigateLoginStepdefs.userNavigateToLogInPage()"
 });
 formatter.result({
-  "duration": 46802,
+  "duration": 51728,
   "status": "passed"
 });
 formatter.match({
   "location": "UserPassStepdefs.userEntersUserNameAndPassword()"
 });
 formatter.result({
-  "duration": 35717,
+  "duration": 41875,
   "status": "passed"
 });
 formatter.match({
   "location": "MessageDisplayStepdefs.messageDisplayedLoginSuccessfully()"
 });
 formatter.result({
-  "duration": 39823,
+  "duration": 42285,
   "status": "passed"
 });
 });
