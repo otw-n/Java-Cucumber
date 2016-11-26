@@ -31,11 +31,23 @@ formatter.step({
   "name": "User is on Home Page2",
   "keyword": "Given "
 });
+formatter.step({
+  "line": 7,
+  "name": "User Navigate to LogIn Page",
+  "keyword": "When "
+});
 formatter.match({
-  "location": "Sample2Stepdefs.userIsOnHomePage()"
+  "location": "GoToPageStepdefs.userIsOnHomePage()"
 });
 formatter.result({
-  "duration": 20312537872,
+  "duration": 10317362121,
+  "status": "passed"
+});
+formatter.match({
+  "location": "NavigateLoginStepdefs.userNavigateToLogInPage()"
+});
+formatter.result({
+  "duration": 48444,
   "status": "passed"
 });
 });

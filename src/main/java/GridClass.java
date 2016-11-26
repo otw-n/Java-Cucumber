@@ -30,16 +30,14 @@ public class GridClass {
             cap.setPlatform(Platform.UNIX);
             driver = new RemoteWebDriver(new URL(node), cap);
 
-            // Puts an Implicit wait, Will wait for 10 seconds before throwing an exception
+            // puts an Implicit wait, Will wait for 10 seconds before throwing an exception
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         }
     }
 
     @After("@browser")
-    public void tearDown(Scenario scenario) {
-        if (scenario.isFailed()) {
-            final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
-            scenario.embed(screenshot, "src/test/test.png");
-        }
+    public void tearDown() {
+        // quit driver
+        driver.quit();
     }
 }
