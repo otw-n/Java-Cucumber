@@ -16,20 +16,19 @@ import org.testng.annotations.Parameters;
 
 public class GridClass {
     public WebDriver driver;
-    public String Node;
+    public String node;
 
     @Parameters("browser")
     @BeforeTest
     public void launchbrowser(String browser) throws MalformedURLException {
 
         if (browser.equalsIgnoreCase("phantomjs")) {
-            System.out.println(" Executing on phantomjs");
-            Node = "http://37.97.206.118:5555/wd/hub";
+            node = "http://37.97.206.118:5555/wd/hub";
             DesiredCapabilities cap = DesiredCapabilities.phantomjs();
             cap.setBrowserName("phantomjs");
             cap.setVersion("2.0.0");
             cap.setPlatform(Platform.UNIX);
-            driver = new RemoteWebDriver(new URL(Node), cap);
+            driver = new RemoteWebDriver(new URL(node), cap);
 
             // Puts an Implicit wait, Will wait for 10 seconds before throwing an exception
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

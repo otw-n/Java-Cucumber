@@ -1,5 +1,6 @@
 import cucumber.api.java.en.Given;
 import org.junit.Assert;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 /**
@@ -17,6 +18,7 @@ public class Sample2Stepdefs {
         grid.driver.manage().window().maximize();
 
         Assert.assertEquals("otwn | Just another WordPress site", grid.driver.getTitle());
+        grid.driver.findElement(By.xpath("//a[@href='http://otwn.nl/index.php/2016/11/19/hello-world/']")).click();
         Thread.sleep(8000);
 
         // quit driver
