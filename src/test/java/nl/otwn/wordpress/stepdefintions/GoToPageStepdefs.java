@@ -1,4 +1,9 @@
+package nl.otwn.wordpress.stepdefintions;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
+import nl.otwn.wordpress.GridClass;
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
@@ -8,7 +13,7 @@ import org.testng.annotations.Test;
  */
 public class GoToPageStepdefs {
     @Given("^User is on Home Page2$")
-    @Test
+//    @Test
     public void userIsOnHomePage() throws Throwable {
         GridClass grid = new GridClass();
 

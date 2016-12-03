@@ -1,3 +1,5 @@
+package nl.otwn.wordpress.stepdefintions;
+
 import cucumber.api.PendingException;
 import cucumber.api.java.en.Then;
 

@@ -1,3 +1,5 @@
+package nl.otwn.wordpress.stepdefintions;
+
 import cucumber.api.java.en.When;
 import org.testng.annotations.Test;
 
@@ -6,7 +8,7 @@ import org.testng.annotations.Test;
  */
 public class NavigateLoginStepdefs {
     @When("^User Navigate to Login Page$")
-    @Test
+//    @Test
     public void userNavigateToLogInPage() throws Throwable {
         // TODO
     }

@@ -1,18 +1,18 @@
-/**
+package nl.otwn.wordpress; /**
  * Created by dto21215 on 25-11-2016.
  */
 
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
-
-import cucumber.api.Scenario;
 import cucumber.api.java.After;
-import org.openqa.selenium.*;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class GridClass {
     public WebDriver driver;
