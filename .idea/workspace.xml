@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88cd1981-cff8-4711-9339-6ecbe6e22a9b" name="Default" comment="WIP - Changed the map structure">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/pagedefintions/InitiateWebsitePageDefinition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/pagedefintions/UserInteractionPageDefition.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/UserInteractionStepDefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/GoToPageStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/GoToPageStepdefs.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/UserPassStepdefs.java" afterPath="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/UserPassStepdefs.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UserInteractionStepDefs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/UserInteractionStepDefs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="34" column="44" lean-forward="false" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UserInteractionPageDefition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/pagedefintions/UserInteractionPageDefition.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.feature" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -62,11 +46,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoToPageStepdefs.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GoToPageStepdefs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/GoToPageStepdefs.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="527">
               <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="631" column="59" lean-forward="false" selection-start-line="631" selection-start-column="59" selection-end-line="631" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -138,6 +142,8 @@
     <findStrings>
       <find>cucu</find>
       <find>node</find>
+      <find>dv</find>
+      <find>dvtol</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,6 +153,11 @@
         <entry key="$PROJECT_DIR$" value="Cucumber-Java-changed-directory-layout" />
       </map>
     </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="cucumber-java-test" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="eric1988" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="cucumber-java-test" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -181,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/pagedefintions/UserInteractionPageDefition.java" />
         <option value="$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/pagedefintions/InitiateWebsitePageDefinition.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -400,6 +412,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pagedefintions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-cucumber-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java-cucumber-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -995,7 +1021,7 @@
       <workItem from="1482057365047" duration="4599000" />
       <workItem from="1482314749373" duration="596000" />
       <workItem from="1482480497849" duration="598000" />
-      <workItem from="1483875036425" duration="795000" />
+      <workItem from="1483875036425" duration="1454000" />
     </task>
     <task id="LOCAL-00001" summary="WIP - Changed the map structure">
       <created>1480774794939</created>
@@ -1004,7 +1030,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480774794939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="WIP - Changed the map structure">
+      <created>1483875996782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1483875996782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1040,7 +1073,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26911000" />
+    <option name="totallyTimeSpent" value="27570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1124,21 +1157,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" lean-forward="false" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/info/cukes/cucumber-core/1.2.2/cucumber-core-1.2.2.jar!/cucumber/runtime/Utils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/info/cukes/cucumber-core/1.2.2/cucumber-core-1.2.2.jar!/cucumber/runtime/StepDefinitionMatch.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -1494,14 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/nl/otwn/wordpress/stepdefintions/NavigateLoginStepdefs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1514,6 +1524,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="39" column="42" lean-forward="false" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="631" column="59" lean-forward="false" selection-start-line="631" selection-start-column="59" selection-end-line="631" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/nl.otwn.wordpress/features/test.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
       </provider>
