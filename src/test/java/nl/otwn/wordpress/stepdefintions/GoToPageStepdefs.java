@@ -4,14 +4,20 @@ import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import nl.otwn.wordpress.GridClass;
+import nl.otwn.wordpress.pagedefintions.InitiateWebsitePageDefinition;
 import org.junit.Assert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 /**
  * Created by dto21215 on 25-11-2016.
  */
 public class GoToPageStepdefs {
+
+    private final InitiateWebsitePageDefinition initiateWebsitePageDefinition = new InitiateWebsitePageDefinition();
+
+
     @Given("^User is on Home Page2$")
 //    @Test
     public void userIsOnHomePage() throws Throwable {
@@ -27,5 +33,10 @@ public class GoToPageStepdefs {
 
         // quit driver
         grid.driver.quit();
+    }
+
+    @Given("^a user is surfed to the website \"([^\"]*)\" in (Firefox|Chrome|IE|phantomjs) browser$")
+    public void aUserIsSurfedToTheWebsite(String websiteLink, String browser) throws Throwable {
+       initiateWebsitePageDefinition.goToWebsiteWithBrowser(websiteLink,browser);
     }
 }
