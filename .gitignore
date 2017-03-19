@@ -1,0 +1,36 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+
+.gitignore
+.idea/libraries/org_slf4j_slf4j_ext_1_5_6.xml
+lib/
+maven-model-2.0-all.jar
+maven-model-2.0-all_2.jar
+src/main/java/javax/
+target/classes/common/
+target/classes/javax/
+target/classes/tools/
+target/classes/webdriver/
+target/cucumber-report/
+target/generated-sources/
+target/generated-test-sources/
+target/test-classes/binaries/
+target/test-classes/features/
+target/test-classes/nl.otwn.wordpress/
+target/test-classes/nl/
+target/test-classes/properties/
+target/test-classes/spring/
+target/test-classes/tools/
+target/test-classes/webdriver/

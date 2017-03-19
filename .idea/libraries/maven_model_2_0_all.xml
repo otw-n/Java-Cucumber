@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="maven-model-2.0-all">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/maven-model-2.0-all.jar!/" />
+    </ANNOTATIONS>
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
